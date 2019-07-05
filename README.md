@@ -9,5 +9,6 @@ Two main issues where the stress has been put:
 First one is the responsive layout - site should display properly on various devices;
 Second one is using SASS properly which includes building partials were needed;
 Additionally, I gathered some skills in usinig BEM methodology for naming classes;
-I used 'Koala' app for SASS compilation to CSS. 
-For small projects it is more then enough.
+
+'Koala' app was used for SASS compilation to CSS. 
+For small projects it is more than enough.
