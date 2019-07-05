@@ -1,0 +1,86 @@
+.t-site-header {
+	background: url("../images/header-tlo.jpg") 0 0 no-repeat;
+
+	@include large-up {
+		clip-path: ellipse(70% 450px at 50% 28%);
+		padding-bottom: $grid-base * 2.5; 
+	}
+
+	&__top {
+		padding-bottom: $grid-base * 2.5;
+		padding-top: $grid-base * 2.5;
+	}
+
+	&__menu {
+		margin-top: $grid-base * 2;
+
+		@include large-up {
+			margin-top: 0;
+			text-align: right;
+		}
+	}
+
+	&__divider {
+		background-color: $white;
+		height: 1px;
+		opacity: 75%;
+	}
+
+	&__hero {
+		padding-bottom: $grid-base * 5;
+		padding-top: $grid-base * 5;
+		margin: 0 auto;
+		text-align: center;
+
+		@include large-up {
+			padding-bottom: $grid-base * 12;
+			padding-top: $grid-base * 11;
+			max-width: 800px;
+		}
+	}
+
+	&__intro-text {
+		color: $white;
+		font-size: $font-size-4;
+		margin-bottom: $grid-base * 2;
+		margin-top: $grid-base * 3;
+
+		@include large-up {
+			font-size: $font-size-3;
+			line-height: $line-height-lg;
+			margin-bottom: $grid-base * 6;
+		}
+	}
+
+	&__btn-divider {
+		color: $white;
+		display: block;
+		font-size: $font-size-5;
+		font-weight: 700;
+		margin: $grid-base * 2;
+
+		@include medium-up {
+			display: inline-block;
+		}
+	}
+}
+
+.sticky {
+	position: fixed;
+  	top: 0;
+  	width: 79%;
+  	background-color: $gray-dark;
+  	padding-top: $grid-base;
+  	padding-bottom: $grid-base;
+  	opacity: .75;
+
+  	@include medium-up {
+		max-width: 740px;
+	}
+
+	@include large-up {
+		max-width: 1140px;
+		margin: 0 auto;
+	}
+}
+

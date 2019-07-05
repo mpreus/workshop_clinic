@@ -1,0 +1,25 @@
+p {
+	font-size: $font-size-5;
+	font-weight: normal;
+	line-height: $line-height-base;
+	margin: 0;
+	margin-bottom: $grid-base;
+}
+
+// font-size of the headings are to be modified by classes
+h1, h2, h3, h4, h5, h6 {
+	font-size: $font-size-4;
+	line-height: $line-height-base;
+	margin: 0;
+}
+
+a {
+	color: $gray-dark;
+	text-decoration: none;
+	&:hover {
+		color: $gray-dark;
+		text-decoration: underline;
+	}
+}
+
+
